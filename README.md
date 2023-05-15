@@ -77,4 +77,28 @@ Klasse To-Do-Liste:
             sonst
                 ausgabe "Ungültige Auswahl. Versuchen Sie es erneut."
 
+-------------------------------------------------------------------------------
+Task (Aufgabe) Klasse:
 
+constructor(name: String): Erstellt eine neue Aufgabe mit dem angegebenen Namen.
+markAsDone(): Markiert die Aufgabe als erledigt.
+toString(): Gibt eine String-Repräsentation der Aufgabe zurück.
+ToDoList (To-Do-Liste) Klasse:
+
+addTask(task: Task): Fügt der To-Do-Liste eine Aufgabe hinzu.
+removeTask(task: Task): Entfernt eine Aufgabe aus der To-Do-Liste.
+markTaskAsDone(task: Task): Markiert eine Aufgabe als erledigt.
+printTasks(): Druckt alle Aufgaben in der To-Do-Liste.
+TaskManager (Aufgabenmanager) Klasse:
+
+createTask(name: String): Erstellt eine neue Aufgabe mit dem angegebenen Namen.
+editTask(task: Task, newName: String): Bearbeitet den Namen einer Aufgabe.
+deleteTask(task: Task): Löscht eine Aufgabe.
+markTaskAsDone(task: Task): Markiert eine Aufgabe als erledigt.
+printTasks(): Druckt alle Aufgaben im Aufgabenmanager.
+TaskInputReader (Aufgabeneingabeleser) Klasse:
+
+readTaskName(): String: Liest den Namen einer Aufgabe vom Benutzer ein.
+Main Klasse:
+
+main(): Die Hauptfunktion, die das Programm steuert und die Benutzerinteraktion ermöglicht.

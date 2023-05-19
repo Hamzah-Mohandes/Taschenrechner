@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Taschenrechner.iml" filepath="$PROJECT_DIR$/Taschenrechner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/To-Do-Liste.iml" filepath="$PROJECT_DIR$/To-Do-Liste.iml" />
     </modules>
   </component>
 </project>
